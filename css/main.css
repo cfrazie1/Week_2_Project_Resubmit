@@ -1,0 +1,229 @@
+/************************************
+ *********** Global *****************
+ ************************************/
+
+body{
+  color: #0B1942;
+  background-color: #CCC;
+  font-family: "PT Sans";
+  font-weight: lighter;
+}
+a{
+  color: #00B7D3;
+}
+
+h2{
+  background-color: #0B1942;
+  color: #FFFFFF;
+}
+
+ul {
+  margin:0;
+  padding:0;
+}
+
+header{
+  background-color: white;
+  height: 440px;
+  width: 100%;
+}
+
+header h1{
+  margin-left: 20px;
+}
+
+header div{
+  display: block;
+  height: 400px;
+  width: 300px;
+  float: left;
+  margin-left: 20px;
+}
+
+#container{
+  width: 1025px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo{
+  background-color: #F5005B;
+  height: 110px;
+  width: 90px;
+  float: left;
+}
+
+#logo img{
+  height: 93px;
+  width: 77px;
+  padding: 5px;
+}
+
+nav{
+  background-color: #7DDFE8;
+  height: 110px;
+  width: 100%;
+}
+
+nav a {
+  color: #FFFFFF;
+  display: block;
+  height: 60px;
+  width: 100px;
+  float:left;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.nav-bar{
+
+}
+li{
+  display: block;
+}
+.home{
+  background-color: #00A5BF;
+
+}
+.calendar{
+  background-color: #00B7D3;
+
+}
+.join{
+  background-color: #00D5E7;
+
+}
+
+footer {
+  background-color: #7DDFE8;
+  height: 110px;
+  width: 100%;
+}
+footer a {
+  color: #FFFFFF;
+  display: block;
+  height: 60px;
+  width: 100px;
+  float:left;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#copyright {
+  color:#fff;
+  float:right;
+  height:80px;
+  width:150px;
+}
+
+/************************************
+ *********** Home page **************
+ ************************************/
+
+#main_nav{
+
+}
+
+#watch{
+
+}
+
+#take_notes{
+
+}
+
+#meetup{
+
+}
+
+#site_header{
+
+}
+.movie-posters{
+  height: 820px;
+  width: 100%;
+  background-color: blue;
+}
+
+#featured{
+  width: 45%;
+  height: 340px;
+  background-color: white;
+  float: left;
+  border: 1px solid white;
+}
+
+#movie_collage{
+  width: 48%;
+  height: 720px;
+  background-color: white;
+  float: right;
+  border:1px solid green;
+}
+
+.poster{
+  width: 225px;
+  height: 310px;
+  background-color: #000;
+  float:left;
+  margin: 10px;
+  background-repeat: no-repeat;
+}
+
+#rashomon {
+  background: url("../images/rashomon-poster.jpg");
+  background-size: 100%;
+  list-style: circle;
+}
+
+#great_train {
+  background: url("../images/great-train-poster.jpg");
+  background-size: 100%;
+}
+
+#bicycle_thief {
+  background: url("../images/bicycle-thief-poster.jpg");
+  background-size: 100%;
+}
+
+#nosferatu {
+  background: url("../images/nosferatu-poster.jpg");
+  background-size: 100%;
+}
+
+#metropolis{
+  background: url("../images/metropolis-poster.jpg");
+  background-size: 100%;
+}
+
+/************************************
+ *********** Calendar page **********
+ ************************************/
+
+table {
+  border-collapse: collapse;
+}
+table .date {
+  background-color: #0B1942;
+  color: white;
+  height: 20px;
+  width: 20px;
+}
+table td{
+ border: 1px solid #000;
+ height: 100px;
+ width: 100px;
+ vertical-align: top;
+ background-color: white;
+}
+table th{
+  text-align: left;
+  color: white;
+}
+#table_container{
+  background-color: #0B1942;
+  width: 710px;
+}
