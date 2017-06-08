@@ -145,7 +145,7 @@ footer a {
 .movie-posters{
   height: 820px;
   width: 100%;
-  background-color: blue;
+  background-color: #0B1942;
 }
 
 #featured{
@@ -161,7 +161,7 @@ footer a {
   height: 720px;
   background-color: white;
   float: right;
-  border:1px solid green;
+  border:1px solid #0B1942;
 }
 
 .poster{
@@ -176,7 +176,6 @@ footer a {
 #rashomon {
   background: url("../images/rashomon-poster.jpg");
   background-size: 100%;
-  list-style: circle;
 }
 
 #great_train {
@@ -226,4 +225,17 @@ table th{
 #table_container{
   background-color: #0B1942;
   width: 710px;
+}
+
+/************************************
+ *********** Join page **********
+ ************************************/
+.avatar{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.movie_genres{
+  justify-content: flex-end;
 }

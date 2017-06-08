@@ -3,15 +3,66 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
   </head>
   <body>
     <div id="container">
       <div class="nav-bar">
         <div id="logo">
-          <img src="images/filmclub.png" />
+          <img src="../images/filmclub.png" />
         </div>
         <nav id="main_nav">
+          <ul>
+            <li>
+              <a href="../index.html" class="home">Home</a>
+            </li>
+            <li>
+             <a href="../calendar/calendar.html" class="calendar">Calendar</a>
+           </li>
+           <li>
+             <a href="../join/index.html" class="join">Join</a>
+           </li>
+         </ul>
+        </nav>
+      </div>
+      <header>
+        <h1>Join Film Club</h1>
+        <br>
+        <div class="Profile";>
+          <p>profile picture</p>
+        <img class="avatar" src="../images/profile-placeholder.png"/>
+        <form action="/action_page.php">
+          First name: <input type="text" name="fname"/>
+          Last name: <input type="text" name="lname"/>
+          Email address <input type="text" name="email address"/>
+          confirm password <input type="text" name="confirm password"/>
+        </form>
+        <p>Which genres are you interested in?</p>
+        <div class="movie_genres">
+          <input type="checkbox" name=movie_type value="action">
+          <label for="movie_type">action</label>
+          <input type="checkbox" name=movie_type value="drama">
+          <label for="movie_type">drama</label>
+          <input type="checkbox" name=movie_type value="horror">
+          <label for="movie_type">horror</label>
+          <input type="checkbox" name=movie_type value="science fiction">
+          <label for="movie_type">science fiction</label>
+          <input type="checkbox" name=movie_type value="adventure">
+          <label for="movie_type">adventure</label>
+          <input type="checkbox" name=movie_type value="fantasy">
+          <label for="movie_type">fantasy</label>
+          <input type="checkbox" name=movie_type value="mystery">
+          <label for="movie_type">mystery</label>
+          <input type="checkbox" name=movie_type value="western">
+          <label for="movie_type">western</label>
+          <input type="checkbox" name=movie_type value="comedy">
+          <label for="movie_type">comedy</label>
+          <input type="checkbox" name=movie_type value="historical">
+          <label for="movie_type">historical</label>
+          <input type="checkbox" name=movie_type value="romance">
+          <label for="movie_type">romance</label>
+        </div>
+        <footer>
           <ul>
             <li>
               <a href="index.html" class="home">Home</a>
@@ -23,5 +74,10 @@
              <a href="join.html" class="join">Join</a>
            </li>
          </ul>
-        </nav>
+         <div id="copyright">
+           &copy; 2017,Film Club
+         </div>
+        </footer>
       </div>
+        </body>
+    </html>
