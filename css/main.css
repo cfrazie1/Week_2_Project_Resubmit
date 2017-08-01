@@ -1,228 +1,503 @@
-body{
-  color: #0B1942;
-  background-color: #CCC;
-  font-family: "PT Sans";
-  font-weight: lighter;
-}
-a{
-  color: #00B7D3;
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Home Mobile Version
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#home-page{
+    margin: 0px;
 }
 
-h2{
-  background-color: #0B1942;
-  color: #FFFFFF;
+.nav-content {
+    display: flex;
+    height: 190px;
+    width: 100%;
 }
 
-ul {
-  margin:0;
-  padding:0;
+.logo {
+    background-color: #F5005B;
+    padding: 4% 3%;
+    width: 40%;
+    height: 157px;
 }
 
-header{
-  background-color: white;
-  height: 440px;
-  width: 100%;
+.nav-row {
+    width: 100%;
+    padding: 0px;
 }
 
-header h1{
-  margin-left: 20px;
+.nav-item {
+    list-style: none;
+    height: 48%;
+    display: flex;
+    margin-top: -15px;
 }
 
-header div{
-  display: block;
-  height: 400px;
-  width: 300px;
-  float: left;
-  margin-left: 20px;
+.nav-item a {
+    color: #FFFFFF;
+    height: 50%;
+    text-decoration: none;
 }
 
-#container{
-  width: 1025px;
-  background-color: white;
-  margin-left: auto;
-  margin-right: auto;
+#Home {
+    background-color: #00A5BF;
+    padding: 7% 50% 6% 50%;
 }
 
-#logo{
-  background-color: #F5005B;
-  height: 110px;
-  width: 90px;
-  float: left;
+#Calendar {
+    background-color: #00B7D3;
+    padding: 7% 50% 6% 50%;
 }
 
-#logo img{
-  height: 93px;
-  width: 77px;
-  padding: 5px;
+#Join {
+    background-color: #00D5e7;
+    padding: 7% 50% 6% 50%;
 }
 
-nav{
-  background-color: #7DDFE8;
-  height: 110px;
-  width: 100%;
+.header-container {
+    margin: 7% 5%;
 }
 
-nav a {
-  color: #FFFFFF;
-  display: block;
-  height: 60px;
-  width: 100px;
-  float:left;
-  text-decoration: none;
-  text-align: center;
-  padding-top: 50px;
+.header-container h2 {
+    background-color: #0B1942;
+    color: #FFFFFF;
+    style
 }
 
-.nav-bar{
-
-}
-li{
-  display: block;
-}
-.home{
-  background-color: #00A5BF;
-
-}
-.calendar{
-  background-color: #00B7D3;
-
-}
-.join{
-  background-color: #00D5E7;
-
+.Mhome-container {
+    background-color: #0B1942;
+    padding: 3%;
 }
 
-footer {
-  background-color: #7DDFE8;
-  height: 110px;
-  width: 100%;
-}
-footer a {
-  color: #FFFFFF;
-  display: block;
-  height: 60px;
-  width: 100px;
-  float:left;
-  text-decoration: none;
-  text-align: center;
-  padding-top: 50px;
+.Mhome-container h1 {
+    color: #FFFFFF;
 }
 
-#copyright {
-  color:#fff;
-  float:right;
-  height:80px;
-  width:150px;
+.film-container {
+    background-color: #FFFFFF;
+    margin: 4%;
+    display: flex;
+    padding-bottom: 8%;
+    height: 100%;
+}
+
+.rashomon-list {
+    list-style-type: circle;
+}
+
+.films-container {
+    background-color: #FFFFFF;
+    margin: 0px 4% 4% 4%;
+    padding: 5%;
+    width: 82%;
+    height: 75%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.films{
+    width: 50%;
+    height: 50%;
+    margin: 0px;
+}
+
+#home-img {
+    width: 45%;
+    height: 75%;;
+    padding: 5%;
+}
+
+#films-img {
+    width: 90%;
+}
+
+.home-footer {
+    width: 100%;
+}
+
+.nav-footer {
+    margin: -5%;
+}
+
+.nfooter-item {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0px;
+}
+
+.nfooter-item a {
+    color: white;
+    text-decoration: none;
+}
+
+#Home-footer {
+    background-color: #00A5BF;
+    padding: 7% 50% 6% 50%;
+}
+
+#Calendar-footer {
+    background-color: #00B7D3;
+    padding: 7% 50% 6% 50%;
+}
+
+#Join-footer {
+    background-color: #00D5e7;
+    padding: 7% 50% 6% 50%;
+    margin-left: -4%;
 }
 
 
-#main_nav{
-
+.span {
+    background-color: #80d5df;
+    padding: 10% 35%;
+    width: 35%;
+    float: left;
+    color: #FFFFFF;
 }
 
-#watch{
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Home Tablet Version
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media screen and (min-width: 545px) and (max-width: 768px) {
+    .nav-content {
+        background-color: #80D5DF;
+        height: 10%;
+    }
+    .logo {
+        padding: 1%;
+        height: 141px;
+        width: 15%;
+    }
+    .nav-item {
+        display: inline-block;
+        margin-top: 8%;
+    }
 
+    #Home {
+        padding: 75px 30px;
+    }
+
+    #Calendar {
+        padding: 75px 50%;
+        margin-left: -10%;
+    }
+
+    #Join {
+        padding: 75px 55%;
+        margin-left: 45px;
+    }
+
+    .header-section h1 {
+        margin-top: 5%;
+        margin-left: 7%;
+        margin-bottom: -3%;
+    }
+
+    .header-container {
+        display: flex;
+    }
+
+    .header {
+        margin: 2%;
+    }
+
+    hr {
+        border: 1px solid gray;
+        width: 190%;
+    }
+
+    #home-img {
+        padding: 3%;
+    }
+
+    .films {
+        width: 25%;
+    }
+
+    .footer-container {
+        margin-top: 5%;
+    }
+
+    .nfooter-item {
+        display: inline-block;
+    }
+
+    .span {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #Home-footer {
+        padding: 75px 30px;
+    }
+
+    #Calendar-footer {
+        padding: 75px 50%;
+        margin-left: -10%;
+    }
+
+    #Join-footer {
+        padding: 75px 55%;
+        margin-left: 45px;
+    }
+    
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Home Desktop Version
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media screen and (min-width:769px) {
+    .nav-content {
+        background-color: #80D5DF;
+        height: 10%;
+    }
+    .logo {
+        padding: 1%;
+        height: 141px;
+        width: 15%;
+    }
+    .nav-item {
+        display: inline-block;
+        margin-top: 8%;
+    }
+
+    #Home {
+        padding: 75px 30px;
+    }
+
+    #Calendar {
+        padding: 75px 50%;
+        margin-left: -10%;
+    }
+
+    #Join {
+        padding: 75px 55%;
+        margin-left: 45px;
+    }
+
+    .header-section h1 {
+        margin-top: 5%;
+        margin-left: 7%;
+        margin-bottom: -3%;
+    }
+
+    .header-container {
+        display: flex;
+    }
+
+    .header {
+        margin: 2%;
+    }
+
+    .Mhome-holder {
+        display: flex;
+    }
+
+    .film-container {
+        width: 85%;
+    }
+    .nav-footer{
+    }
+
+    .nfooter-item {
+        display: inline-block;
+    }
+
+    .nfooter-item a {
+    }
+
+    .span {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #Home-footer {
+        padding: 75px 30px;
+    }
+
+    #Calendar-footer {
+        padding: 75px 50%;
+        margin-left: -10%;
+    }
+
+    #Join-footer {
+        padding: 75px 55%;
+        margin-left: 45px;
+    }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Calendar Mobile Version
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#calendar-page {
+    margin: 0px;
 }
 
-#take_notes{
-
+.calendar-container {
+    background-color: #0B1942;
 }
 
-#meetup{
-
+.calendar-h2 {
+    color: #FFFFFF;
 }
-
-#site_header{
-
-}
-.movie-posters{
-  height: 820px;
-  width: 100%;
-  background-color: #0B1942;
-}
-
-#featured{
-  width: 45%;
-  height: 340px;
-  background-color: white;
-  float: left;
-  border: 1px solid white;
-}
-
-#movie_collage{
-  width: 48%;
-  height: 720px;
-  background-color: white;
-  float: right;
-  border:1px solid #0B1942;
-}
-
-.poster{
-  width: 225px;
-  height: 310px;
-  background-color: #000;
-  float:left;
-  margin: 10px;
-  background-repeat: no-repeat;
-}
-
-#rashomon {
-  background: url("../images/rashomon-poster.jpg");
-  background-size: 100%;
-}
-
-#great_train {
-  background: url("../images/great-train-poster.jpg");
-  background-size: 100%;
-}
-
-#bicycle_thief {
-  background: url("../images/bicycle-thief-poster.jpg");
-  background-size: 100%;
-}
-
-#nosferatu {
-  background: url("../images/nosferatu-poster.jpg");
-  background-size: 100%;
-}
-
-#metropolis{
-  background: url("../images/metropolis-poster.jpg");
-  background-size: 100%;
+.calendar {
+    width: 100%;
+    margin-left: -35px;
 }
 
 table {
-  border-collapse: collapse;
+    width: 100%;
 }
-table .date {
-  background-color: #0B1942;
-  color: white;
-  height: 20px;
-  width: 20px;
+
+.t-day {
+    background-color: #FFFFFF;
+    list-style: none;
+    display: inline-block;
+    width: 13%;
+    height: 20%;
+    border: 1px solid #0B1942;
 }
-table td{
- border: 1px solid #000;
- height: 100px;
- width: 100px;
- vertical-align: top;
- background-color: white;
+
+.highlighted {
+    background-color: #F5005B;
+    list-style: none;
+    display: inline-block;
+    width: 13%;
+    height: 20%;
+    border: 1px solid #0B1942;
 }
-table th{
-  text-align: left;
-  color: white;
-}
-#table_container{
-  background-color: #0B1942;
-  width: 710px;
+
+.highlighted h3 {
+    background-color: #0B1942;
+    color: #FFFFFF;
+    float: left;
 }
 
 
-.avatar{
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
+.t-day h3 {
+    background-color: #0B1942;
+    color: #FFFFFF;
+    float: left;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Calendar Tablet Version
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media screen and (min-width: 545px) and (max-width: 768px){
+    .highlighted {
+        height: 90px;
+    }
+
+    .t-day{
+        height: 90px;
+    }
 }
 
-.movie_genres{
-  justify-content: flex-end;
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Calendar Desktop Version
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media screen and (min-width: 769px) {
+    .highlighted {
+        height: 145px;
+    }
+
+    .t-day{
+        height: 145px;
+    }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Join Mobile Version
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.prof-pic {
+    border-radius: 50%;
+    width: 70%;
+    margin: 10%;
+}
+
+.signup {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputcontainer {
+    margin: 5%;
+}
+
+.input {
+    width: 80%;
+    height: 50px;
+}
+
+.submitcontainer {
+    margin: 5%;
+}
+
+.submit {
+    padding: 4% 6%;
+    background-color: red;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Join Tablet Version
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media screen and (min-width: 545px) and (max-width: 768px){
+    .prof-pic {
+        width: 40%;
+        float: left;
+    }
+
+    .signup label {
+        margin-top: 9%;
+        margin-bottom: 10%;
+    }
+
+    .checkbox {
+        width: 500px;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        height: 350px
+
+    }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Join Desktop Version
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media screen and (min-width: 769px) {
+    .prof-pic {
+        width: 25%;
+        float: left;
+    }
+    
+    .signup {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 15%;
+        margin-top: 18%;
+        padding: 2%;
+    }
+
+    .signup input {
+        margin: 2%;
+        padding: 1%;
+    }
+
+    .checkbox {
+        width: 500px;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        height: 230px;
+    }
+
+    .submit{
+        padding: 2% 8%;
+    }
+
+    .footer-container {
+        margin-top: 17%;
+        margin-left: -7%;
+    }
 }
